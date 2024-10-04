@@ -81,6 +81,35 @@ with transaction.atomic():  # Starts a new transaction
 2. We can iterate over an instance of the Rectangle class 
 3. When an instance of the Rectangle class is iterated over, we first get its length in the format: {'length': <VALUE_OF_LENGTH>} followed by the width {width: <VALUE_OF_WIDTH>}
 
+# Solution:
+
+```python
+class Rectangle:
+    def __init__(self, length: int, width: int):
+        self.length = length
+        self.width = width
+
+    # Define the __iter__ method to make the class iterable
+    def __iter__(self):
+        # Yield the length first
+        yield {'length': self.length}
+        # Then yield the width
+        yield {'width': self.width}
+
+# Example usage:
+rectangle = Rectangle(10, 5)
+
+# Iterating over the Rectangle instance
+for dimension in rectangle:
+    print(dimension)
+    ```
+# Output
+```{'length': 10}
+{'width': 5}
+```
+
+
+
 
 
 
