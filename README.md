@@ -20,6 +20,7 @@ my_instance = MyModel(name="Test Instance")
 my_instance.save()  # Signal will be executed synchronously after save
 
 #This demonstrates that Django signals run synchronously by default, as the save() method waits for the signal to complete.
+---
 
 # Question 2: Do django signals run in the same thread as the caller?
 =>Answer:
