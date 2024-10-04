@@ -102,9 +102,10 @@ rectangle = Rectangle(10, 5)
 # Iterating over the Rectangle instance
 for dimension in rectangle:
     print(dimension)
-    ```
+```
 # Output
-```{'length': 10}
+```python
+{'length': 10}
 {'width': 5}
 ```
 
