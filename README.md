@@ -5,6 +5,7 @@
 =>Answer: Yes,by default, Django signals are executed synchronously. This means that the sender waits for all connected receivers to finish before continuing
 
 # Code
+```python
 from django.db import models
 from django.dispatch import receiver
 from django.db.models.signals import post_save
