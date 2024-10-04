@@ -1,7 +1,7 @@
 ```Name: SURAJ KHAN```
 ```Gmail: surajkhanghatal@gmail.com```
 ```Ph: +91 8695237780```
-```Linkedin: https://www.linkedin.com/in/suraj-khan22/```
+```[Linkedin:] (https://www.linkedin.com/in/suraj-khan22)```
 
 # django-signals-and-python-classes-ans
 
