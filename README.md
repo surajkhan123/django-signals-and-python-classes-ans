@@ -1,8 +1,8 @@
 # django-signals-and-python-classes-ans
 
-#Question 1: Are Django Signals executed synchronously or asynchronously?
-#Answer:
-By default, Django signals are executed synchronously. This means that the sender waits for all connected receivers to finish before continuing
+Question 1: Are Django Signals executed synchronously or asynchronously?
+
+=>Answer:By default, Django signals are executed synchronously. This means that the sender waits for all connected receivers to finish before continuing
 
 #Code
 from django.db import models
